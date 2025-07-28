@@ -1,0 +1,20 @@
+{
+  "runID": "ba05a2f5-50c1-4cf9-b71d-7f9956303fc9",
+  "seed": 1753719443038,
+  "clinicianSeed": 1753719443038,
+  "referenceTime": "20250728",
+  "endTime": "20250728",
+  "version": "master-branch-latest\n",
+  "patientCount": 100,
+  "providerCount": 8355,
+  "payerCount": 9,
+  "javaVersion": "17.0.15",
+  "generate.thread_pool_size": -1,
+  "generatorThreads": 4,
+  "runStartTime": "2025-07-28T16:17:23Z",
+  "runTimeInSeconds": 73,
+  "exporter.years_of_history": "3",
+  "age": "18-100",
+  "state": "California",
+  "modules": "*"
+}

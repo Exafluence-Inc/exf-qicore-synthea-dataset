@@ -1,0 +1,45 @@
+START,STOP,PATIENT,ENCOUNTER,CODE,SYSTEM,DESCRIPTION,TYPE,CATEGORY,REACTION1,DESCRIPTION1,SEVERITY1,REACTION2,DESCRIPTION2,SEVERITY2
+1966-05-02,,58c10071-a77a-fe7d-eda8-95c87dccd445,d0db4f34-0344-a1e2-734b-a3924348164d,609328004,SNOMED-CT,Allergic disposition (finding),allergy,environment,,,,,,
+1966-05-02,,58c10071-a77a-fe7d-eda8-95c87dccd445,d0db4f34-0344-a1e2-734b-a3924348164d,84489001,SNOMED-CT,Mold (organism),allergy,environment,21626009,Cutaneous hypersensitivity (disorder),MILD,76067001,Sneezing (finding),MILD
+1966-05-02,,58c10071-a77a-fe7d-eda8-95c87dccd445,d0db4f34-0344-a1e2-734b-a3924348164d,735029006,SNOMED-CT,Shellfish (substance),allergy,food,271807003,Eruption of skin (disorder),MODERATE,402387002,Allergic angioedema (disorder),MODERATE
+1939-05-05,,e5ea2e00-4031-8532-ef87-eb469024d0dd,6310af1a-3751-6860-3bcd-0bc0ef3d03cd,609328004,SNOMED-CT,Allergic disposition (finding),allergy,environment,,,,,,
+1939-05-05,,e5ea2e00-4031-8532-ef87-eb469024d0dd,6310af1a-3751-6860-3bcd-0bc0ef3d03cd,735029006,SNOMED-CT,Shellfish (substance),allergy,food,271807003,Eruption of skin (disorder),MODERATE,267036007,Dyspnea (finding),MILD
+1998-09-10,,8ef99ca1-5615-7aa6-d383-47fe931a1f14,f68ee8f9-c817-001f-7fef-9297b58b2d27,609328004,SNOMED-CT,Allergic disposition (finding),allergy,environment,,,,,,
+1998-09-10,,8ef99ca1-5615-7aa6-d383-47fe931a1f14,f68ee8f9-c817-001f-7fef-9297b58b2d27,1191,RxNorm,Aspirin,allergy,medication,,,,,,
+1953-03-05,,28c2bebe-af4a-2c35-df69-8a9d28c79d22,5bc0745d-a9f5-4f5d-e930-ae33335e894a,609328004,SNOMED-CT,Allergic disposition (finding),allergy,environment,,,,,,
+1953-03-05,,28c2bebe-af4a-2c35-df69-8a9d28c79d22,5bc0745d-a9f5-4f5d-e930-ae33335e894a,84489001,SNOMED-CT,Mold (organism),allergy,environment,,,,,,
+1953-03-05,,28c2bebe-af4a-2c35-df69-8a9d28c79d22,5bc0745d-a9f5-4f5d-e930-ae33335e894a,260147004,SNOMED-CT,House dust mite (organism),allergy,environment,,,,,,
+1953-03-05,,28c2bebe-af4a-2c35-df69-8a9d28c79d22,5bc0745d-a9f5-4f5d-e930-ae33335e894a,264287008,SNOMED-CT,Animal dander (substance),allergy,environment,878820003,Rhinoconjunctivitis (disorder),MODERATE,,,
+1953-03-05,,28c2bebe-af4a-2c35-df69-8a9d28c79d22,5bc0745d-a9f5-4f5d-e930-ae33335e894a,256277009,SNOMED-CT,Grass pollen (substance),allergy,environment,,,,,,
+1953-03-05,,28c2bebe-af4a-2c35-df69-8a9d28c79d22,5bc0745d-a9f5-4f5d-e930-ae33335e894a,782576004,SNOMED-CT,Tree pollen (substance),allergy,environment,,,,,,
+1953-03-05,,28c2bebe-af4a-2c35-df69-8a9d28c79d22,5bc0745d-a9f5-4f5d-e930-ae33335e894a,25037,RxNorm,cefdinir,allergy,medication,,,,,,
+1953-03-05,,28c2bebe-af4a-2c35-df69-8a9d28c79d22,5bc0745d-a9f5-4f5d-e930-ae33335e894a,735029006,SNOMED-CT,Shellfish (substance),allergy,food,39579001,Anaphylaxis (disorder),SEVERE,402387002,Allergic angioedema (disorder),MODERATE
+1953-03-05,,28c2bebe-af4a-2c35-df69-8a9d28c79d22,5bc0745d-a9f5-4f5d-e930-ae33335e894a,442571000124108,SNOMED-CT,Tree nut (substance),allergy,food,39579001,Anaphylaxis (disorder),SEVERE,247472004,Wheal (finding),MODERATE
+1962-06-11,,0269d33a-256f-2b8a-06ab-ae985e098ffa,5d5abf11-9a12-051b-54fa-b5d299c20e26,609328004,SNOMED-CT,Allergic disposition (finding),allergy,environment,,,,,,
+1962-06-11,,0269d33a-256f-2b8a-06ab-ae985e098ffa,5d5abf11-9a12-051b-54fa-b5d299c20e26,288328004,SNOMED-CT,Bee venom (substance),allergy,environment,271807003,Eruption of skin (disorder),MODERATE,,,
+1962-06-11,,0269d33a-256f-2b8a-06ab-ae985e098ffa,5d5abf11-9a12-051b-54fa-b5d299c20e26,84489001,SNOMED-CT,Mold (organism),allergy,environment,21626009,Cutaneous hypersensitivity (disorder),MILD,267101005,Nasal discharge present (situation),MILD
+1962-06-11,,0269d33a-256f-2b8a-06ab-ae985e098ffa,5d5abf11-9a12-051b-54fa-b5d299c20e26,260147004,SNOMED-CT,House dust mite (organism),allergy,environment,,,,,,
+1962-06-11,,0269d33a-256f-2b8a-06ab-ae985e098ffa,5d5abf11-9a12-051b-54fa-b5d299c20e26,264287008,SNOMED-CT,Animal dander (substance),allergy,environment,49727002,Cough (finding),MODERATE,271807003,Eruption of skin (disorder),MILD
+1962-06-11,,0269d33a-256f-2b8a-06ab-ae985e098ffa,5d5abf11-9a12-051b-54fa-b5d299c20e26,256277009,SNOMED-CT,Grass pollen (substance),allergy,environment,,,,,,
+1962-06-11,,0269d33a-256f-2b8a-06ab-ae985e098ffa,5d5abf11-9a12-051b-54fa-b5d299c20e26,782576004,SNOMED-CT,Tree pollen (substance),allergy,environment,,,,,,
+1962-06-11,,0269d33a-256f-2b8a-06ab-ae985e098ffa,5d5abf11-9a12-051b-54fa-b5d299c20e26,3718001,SNOMED-CT,Cow's milk (substance),allergy,food,247472004,Wheal (finding),MILD,,,
+1962-06-11,,0269d33a-256f-2b8a-06ab-ae985e098ffa,5d5abf11-9a12-051b-54fa-b5d299c20e26,102263004,SNOMED-CT,Eggs (edible) (substance),allergy,food,39579001,Anaphylaxis (disorder),SEVERE,,,
+1962-06-11,,0269d33a-256f-2b8a-06ab-ae985e098ffa,5d5abf11-9a12-051b-54fa-b5d299c20e26,412071004,SNOMED-CT,Wheat (substance),allergy,food,271807003,Eruption of skin (disorder),MODERATE,,,
+1987-03-08,,a4e05cb8-cdb8-8733-1a63-5a49aa15c251,db5d32d3-fc03-bce4-42ed-42855d569151,609328004,SNOMED-CT,Allergic disposition (finding),allergy,environment,,,,,,
+1987-03-08,,a4e05cb8-cdb8-8733-1a63-5a49aa15c251,db5d32d3-fc03-bce4-42ed-42855d569151,735029006,SNOMED-CT,Shellfish (substance),allergy,food,39579001,Anaphylaxis (disorder),SEVERE,402387002,Allergic angioedema (disorder),MODERATE
+1971-05-02,,2fab68b0-1104-35ee-9579-32300c49e8e9,7a3671ac-17d7-2ccd-63fe-91187f32ba22,609328004,SNOMED-CT,Allergic disposition (finding),allergy,environment,,,,,,
+1993-06-26,,baef3b4c-7be0-5b74-d702-108d9fb83d9a,f2c25c23-e953-4320-fe96-42e049ab890e,609328004,SNOMED-CT,Allergic disposition (finding),allergy,environment,,,,,,
+1993-06-26,,baef3b4c-7be0-5b74-d702-108d9fb83d9a,f2c25c23-e953-4320-fe96-42e049ab890e,84489001,SNOMED-CT,Mold (organism),allergy,environment,267101005,Nasal discharge present (situation),MILD,,,
+1993-06-26,,baef3b4c-7be0-5b74-d702-108d9fb83d9a,f2c25c23-e953-4320-fe96-42e049ab890e,260147004,SNOMED-CT,House dust mite (organism),allergy,environment,,,,,,
+1993-06-26,,baef3b4c-7be0-5b74-d702-108d9fb83d9a,f2c25c23-e953-4320-fe96-42e049ab890e,264287008,SNOMED-CT,Animal dander (substance),allergy,environment,,,,,,
+1993-06-26,,baef3b4c-7be0-5b74-d702-108d9fb83d9a,f2c25c23-e953-4320-fe96-42e049ab890e,256277009,SNOMED-CT,Grass pollen (substance),allergy,environment,,,,,,
+1993-06-26,,baef3b4c-7be0-5b74-d702-108d9fb83d9a,f2c25c23-e953-4320-fe96-42e049ab890e,782576004,SNOMED-CT,Tree pollen (substance),allergy,environment,,,,,,
+1993-06-26,,baef3b4c-7be0-5b74-d702-108d9fb83d9a,f2c25c23-e953-4320-fe96-42e049ab890e,1191,RxNorm,Aspirin,allergy,medication,247472004,Wheal (finding),MODERATE,,,
+1993-06-26,,baef3b4c-7be0-5b74-d702-108d9fb83d9a,f2c25c23-e953-4320-fe96-42e049ab890e,7984,RxNorm,Penicillin V,allergy,medication,39579001,Anaphylaxis (disorder),SEVERE,247472004,Wheal (finding),MILD
+1993-06-26,,baef3b4c-7be0-5b74-d702-108d9fb83d9a,f2c25c23-e953-4320-fe96-42e049ab890e,256355007,SNOMED-CT,Glycine max (substance),allergy,food,62315008,Diarrhea (finding),MILD,,,
+1993-06-26,,baef3b4c-7be0-5b74-d702-108d9fb83d9a,f2c25c23-e953-4320-fe96-42e049ab890e,762952008,SNOMED-CT,Peanut (substance),allergy,food,49727002,Cough (finding),MILD,,,
+1997-11-09,,8d06e43d-9aa6-764c-42ef-8a8f02bd52e8,08750c96-6363-b9ce-7704-13e6623badbd,609328004,SNOMED-CT,Allergic disposition (finding),allergy,environment,,,,,,
+1997-11-09,,8d06e43d-9aa6-764c-42ef-8a8f02bd52e8,08750c96-6363-b9ce-7704-13e6623badbd,260147004,SNOMED-CT,House dust mite (organism),allergy,environment,,,,,,
+1997-11-09,,8d06e43d-9aa6-764c-42ef-8a8f02bd52e8,08750c96-6363-b9ce-7704-13e6623badbd,264287008,SNOMED-CT,Animal dander (substance),allergy,environment,878820003,Rhinoconjunctivitis (disorder),MODERATE,247472004,Wheal (finding),MILD
+1997-11-09,,8d06e43d-9aa6-764c-42ef-8a8f02bd52e8,08750c96-6363-b9ce-7704-13e6623badbd,735029006,SNOMED-CT,Shellfish (substance),allergy,food,271807003,Eruption of skin (disorder),MODERATE,402387002,Allergic angioedema (disorder),MODERATE
+2000-07-07,,acb4fdd2-907e-0667-74a2-e8afeb34bf4f,8e578705-048f-5352-e65d-9210c9023b95,609328004,SNOMED-CT,Allergic disposition (finding),allergy,environment,,,,,,

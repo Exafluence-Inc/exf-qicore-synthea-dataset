@@ -1,0 +1,541 @@
+{
+  "name": "BMI Obesity, Diabetes, Hypertension, and Depression Management",
+  "states": {
+    "Initial": {
+      "type": "Initial",
+      "name": "Initial",
+      "conditional_transition": [
+        {
+          "transition": "Keep",
+          "condition": {
+            "condition_type": "Or",
+            "conditions": [
+              {
+                "condition_type": "Active Condition",
+                "codes": [
+                  {
+                    "system": "SNOMED-CT",
+                    "code": "162864005",
+                    "display": "Body mass index 30+ - obesity (finding)"
+                  }
+                ]
+              },
+              {
+                "condition_type": "Active Condition",
+                "codes": [
+                  {
+                    "system": "SNOMED-CT",
+                    "code": "408512008",
+                    "display": "Body mass index 40+ - severely obese (finding)"
+                  }
+                ]
+              },
+              {
+                "condition_type": "Active Condition",
+                "codes": [
+                  {
+                    "system": "SNOMED-CT",
+                    "code": "388976009",
+                    "display": "Weight reduction regimen (regime/therapy)"
+                  }
+                ]
+              },
+              {
+                "condition_type": "Active Condition",
+                "codes": [
+                  {
+                    "system": "SNOMED-CT",
+                    "code": "718361005",
+                    "display": "Weight management program"
+                  }
+                ]
+              },
+              {
+                "condition_type": "Active Condition",
+                "codes": [
+                  {
+                    "system": "SNOMED-CT",
+                    "code": "718361005",
+                    "display": "Weight management program"
+                  }
+                ]
+              },
+              {
+                "condition_type": "Active Condition",
+                "codes": [
+                  {
+                    "system": "SNOMED-CT",
+                    "code": "388976009",
+                    "display": "Weight reduction regimen (regime/therapy)"
+                  }
+                ]
+              },
+              {
+                "condition_type": "Active Condition",
+                "codes": [
+                  {
+                    "system": "SNOMED-CT",
+                    "code": "15777000",
+                    "display": "Prediabetes"
+                  }
+                ]
+              },
+              {
+                "condition_type": "Active Condition",
+                "codes": [
+                  {
+                    "system": "SNOMED-CT",
+                    "code": "160670007",
+                    "display": "Diabetic diet"
+                  }
+                ]
+              },
+              {
+                "condition_type": "Active Condition",
+                "codes": [
+                  {
+                    "system": "SNOMED-CT",
+                    "code": "395123002",
+                    "display": "Urine screening test for diabetes"
+                  }
+                ]
+              },
+              {
+                "condition_type": "Active Condition",
+                "codes": [
+                  {
+                    "system": "SNOMED-CT",
+                    "code": "44054006",
+                    "display": "Diabetes mellitus type 2 (disorder)"
+                  }
+                ]
+              },
+              {
+                "condition_type": "Active Condition",
+                "codes": [
+                  {
+                    "system": "SNOMED-CT",
+                    "code": "698360004",
+                    "display": "Diabetes self management plan"
+                  }
+                ]
+              },
+              {
+                "condition_type": "Active Condition",
+                "codes": [
+                  {
+                    "system": "SNOMED-CT",
+                    "code": "422034002",
+                    "display": "Retinopathy due to type 2 diabetes mellitus (disorder)"
+                  }
+                ]
+              },
+              {
+                "condition_type": "Active Condition",
+                "codes": [
+                  {
+                    "system": "SNOMED-CT",
+                    "code": "1501000119109",
+                    "display": "Proliferative diabetic retinopathy due to type II diabetes mellitus (disorder)"
+                  }
+                ]
+              },
+              {
+                "condition_type": "Active Condition",
+                "codes": [
+                  {
+                    "system": "SNOMED-CT",
+                    "code": "1551000119108",
+                    "display": "Nonproliferative diabetic retinopathy due to type 2 diabetes mellitus (disorder)"
+                  }
+                ]
+              },
+              {
+                "condition_type": "Active Condition",
+                "codes": [
+                  {
+                    "system": "SNOMED-CT",
+                    "code": "454711000124102",
+                    "display": "Depression screening using Patient Health Questionnaire Two-Item score (procedure)"
+                  }
+                ]
+              },
+              {
+                "condition_type": "Active Condition",
+                "codes": [
+                  {
+                    "system": "SNOMED-CT",
+                    "code": "715252007",
+                    "display": "Depression screening using Patient Health Questionnaire Nine Item score (procedure)"
+                  }
+                ]
+              },
+              {
+                "condition_type": "Active Condition",
+                "codes": [
+                  {
+                    "system": "SNOMED-CT",
+                    "code": "59621000",
+                    "display": "Essential hypertension (disorder)"
+                  }
+                ]
+              },
+              {
+                "condition_type": "Active Condition",
+                "codes": [
+                  {
+                    "system": "SNOMED-CT",
+                    "code": "183856001",
+                    "display": "Referral to hypertension clinic"
+                  }
+                ]
+              },
+              {
+                "condition_type": "Active Condition",
+                "codes": [
+                  {
+                    "system": "SNOMED-CT",
+                    "code": "1151000175103",
+                    "display": "Dietary approaches to stop hypertension diet"
+                  }
+                ]
+              },
+              {
+                "condition_type": "Active Condition",
+                "codes": [
+                  {
+                    "system": "SNOMED-CT",
+                    "code": "443402002",
+                    "display": "Lifestyle education regarding hypertension"
+                  }
+                ]
+              },
+              {
+                "condition_type": "Active Condition",
+                "codes": [
+                  {
+                    "system": "SNOMED-CT",
+                    "code": "171207006",
+                    "display": "Depression screening"
+                  }
+                ]
+              },
+              {
+                "condition_type": "Active Condition",
+                "codes": [
+                  {
+                    "system": "SNOMED-CT",
+                    "code": "784051000000106",
+                    "display": "Depression care management"
+                  }
+                ]
+              },
+              {
+                "condition_type": "Active Condition",
+                "codes": [
+                  {
+                    "system": "SNOMED-CT",
+                    "code": "36923009",
+                    "display": "Major depression  single episode"
+                  }
+                ]
+              },
+              {
+                "condition_type": "Active Medication",
+                "codes": [
+                  {
+                    "system": "RxNorm",
+                    "code": "310385",
+                    "display": "FLUoxetine 20 MG Oral Capsule"
+                  }
+                ]
+              },
+              {
+                "condition_type": "Active Medication",
+                "codes": [
+                  {
+                    "system": "RxNorm",
+                    "code": "312938",
+                    "display": "Sertraline 100 MG Oral Tablet"
+                  }
+                ]
+              },
+              {
+                "condition_type": "Active Medication",
+                "codes": [
+                  {
+                    "system": "RxNorm",
+                    "code": "596926",
+                    "display": "duloxetine 20 MG Delayed Release Oral Capsule"
+                  }
+                ]
+              },
+              {
+                "condition_type": "Active Condition",
+                "codes": [
+                  {
+                    "system": "SNOMED-CT",
+                    "code": "76168009",
+                    "display": "Group psychotherapy (regime/therapy)"
+                  }
+                ]
+              },
+              {
+                "condition_type": "Active Condition",
+                "codes": [
+                  {
+                    "system": "SNOMED-CT",
+                    "code": "385724002",
+                    "display": "Coping Support Management"
+                  }
+                ]
+              },
+              {
+                "condition_type": "Active Condition",
+                "codes": [
+                  {
+                    "system": "SNOMED-CT",
+                    "code": "385892002",
+                    "display": "Mental health screening (procedure)"
+                  }
+                ]
+              },
+              {
+                "condition_type": "Active Medication",
+                "codes": [
+                  {
+                    "system": "RxNorm",
+                    "code": "898342",
+                    "display": "amlodipine 10 MG / benazepril hydrochloride 20 MG Oral Capsule"
+                  }
+                ]
+              },
+              {
+                "condition_type": "Active Medication",
+                "codes": [
+                  {
+                    "system": "RxNorm",
+                    "code": "898346",
+                    "display": "amlodipine 10 MG / benazepril hydrochloride 40 MG Oral Capsule"
+                  }
+                ]
+              },
+              {
+                "condition_type": "Active Medication",
+                "codes": [
+                  {
+                    "system": "RxNorm",
+                    "code": "898350",
+                    "display": "amlodipine 2.5 MG / benazepril hydrochloride 10 MG Oral Capsule"
+                  }
+                ]
+              },
+              {
+                "condition_type": "Active Medication",
+                "codes": [
+                  {
+                    "system": "RxNorm",
+                    "code": "898353",
+                    "display": "amlodipine 5 MG / benazepril hydrochloride 10 MG Oral Capsule"
+                  }
+                ]
+              },
+              {
+                "condition_type": "Active Medication",
+                "codes": [
+                  {
+                    "system": "RxNorm",
+                    "code": "898359",
+                    "display": "amlodipine 5 MG / benazepril hydrochloride 40 MG Oral Capsule"
+                  }
+                ]
+              },
+              {
+                "condition_type": "Active Medication",
+                "codes": [
+                  {
+                    "system": "RxNorm",
+                    "code": "308136",
+                    "display": "amLODIPine 2.5 MG Oral Tablet"
+                  }
+                ]
+              },
+              {
+                "condition_type": "Active Medication",
+                "codes": [
+                  {
+                    "system": "RxNorm",
+                    "code": "197885",
+                    "display": "hydrochlorothiazide 12.5 MG / lisinopril 10 MG Oral Tablet"
+                  }
+                ]
+              },
+              {
+                "condition_type": "Active Medication",
+                "codes": [
+                  {
+                    "system": "RxNorm",
+                    "code": "197886",
+                    "display": "hydrochlorothiazide 12.5 MG / lisinopril 20 MG Oral Tablet"
+                  }
+                ]
+              },
+              {
+                "condition_type": "Active Medication",
+                "codes": [
+                  {
+                    "system": "RxNorm",
+                    "code": "197887",
+                    "display": "hydrochlorothiazide 25 MG / lisinopril 20 MG Oral Tablet"
+                  }
+                ]
+              },
+              {
+                "condition_type": "Active Medication",
+                "codes": [
+                  {
+                    "system": "RxNorm",
+                    "code": "200284",
+                    "display": "hydrochlorothiazide 12.5 MG / valsartan 80 MG Oral Tablet"
+                  }
+                ]
+              },
+              {
+                "condition_type": "Active Medication",
+                "codes": [
+                  {
+                    "system": "RxNorm",
+                    "code": "200285",
+                    "display": "hydrochlorothiazide 12.5 MG / valsartan 160 MG Oral Tablet"
+                  }
+                ]
+              },
+              {
+                "condition_type": "Active Medication",
+                "codes": [
+                  {
+                    "system": "RxNorm",
+                    "code": "310798",
+                    "display": "Hydrochlorothiazide 25 MG Oral Tablet"
+                  }
+                ]
+              },
+              {
+                "condition_type": "Active Medication",
+                "codes": [
+                  {
+                    "system": "RxNorm",
+                    "code": "854908",
+                    "display": "bisoprolol fumarate 10 MG / hydrochlorothiazide 6.25 MG Oral Tablet"
+                  }
+                ]
+              },
+              {
+                "condition_type": "Active Medication",
+                "codes": [
+                  {
+                    "system": "RxNorm",
+                    "code": "898367",
+                    "display": "benazepril hydrochloride 20 MG / hydrochlorothiazide 12.5 MG Oral Tablet"
+                  }
+                ]
+              },
+              {
+                "condition_type": "Active Medication",
+                "codes": [
+                  {
+                    "system": "RxNorm",
+                    "code": "897685",
+                    "display": "verapamil hydrochloride 80 MG Oral Tablet"
+                  }
+                ]
+              },
+              {
+                "condition_type": "Active Medication",
+                "codes": [
+                  {
+                    "system": "RxNorm",
+                    "code": "751616",
+                    "display": "nebivolol 10 MG Oral Tablet [Bystolic]"
+                  }
+                ]
+              },
+              {
+                "condition_type": "Active Medication",
+                "codes": [
+                  {
+                    "system": "RxNorm",
+                    "code": "751620",
+                    "display": "nebivolol 2.5 MG Oral Tablet [Bystolic]"
+                  }
+                ]
+              },
+              {
+                "condition_type": "Active Medication",
+                "codes": [
+                  {
+                    "system": "RxNorm",
+                    "code": "751623",
+                    "display": "nebivolol 5 MG Oral Tablet [Bystolic]"
+                  }
+                ]
+              },
+              {
+                "condition_type": "Active Medication",
+                "codes": [
+                  {
+                    "system": "RxNorm",
+                    "code": "827075",
+                    "display": "nebivolol 20 MG Oral Tablet [Bystolic]"
+                  }
+                ]
+              },
+              {
+                "condition_type": "Active Medication",
+                "codes": [
+                  {
+                    "system": "RxNorm",
+                    "code": "1100184",
+                    "display": "Donepezil hydrochloride 23 MG Oral Tablet"
+                  }
+                ]
+              },
+              {
+                "condition_type": "Active Medication",
+                "codes": [
+                  {
+                    "system": "RxNorm",
+                    "code": "1599803",
+                    "display": "24 HR Donepezil hydrochloride 10 MG / Memantine hydrochloride 28 MG Extended Release Oral Capsule"
+                  }
+                ]
+              },
+              {
+                "condition_type": "Active Medication",
+                "codes": [
+                  {
+                    "system": "RxNorm",
+                    "code": "997223",
+                    "display": "Donepezil hydrochloride 10 MG Oral Tablet"
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "transition": "Terminal"
+        }
+      ]
+    },
+    "Terminal": {
+      "type": "Terminal",
+      "name": "Terminal"
+    },
+    "Keep": {
+      "type": "Terminal",
+      "name": "Keep"
+    }
+  },
+  "gmf_version": 2
+}
